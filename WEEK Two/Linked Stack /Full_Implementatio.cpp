@@ -47,7 +47,7 @@ public:
         }
         else {
             Node*delptr =top;
-            top = top->next;
+            top = top->Next;
             delete delptr;
 
         }
